@@ -3,10 +3,17 @@
     padding: 71px 0 136px;
 }
 
+.footer_container{
+    margin: 0 auto;
+    max-width: 640px;
+    max-height: 176px;
+    text-align: center;
+}
+
 .footer_title{
     font-family: 'Inter';
     font-style: normal;
-    text-align: center;
+   /* text-align: center;*/
     font-weight: 500;
     font-size: 38px;
     line-height: 48px;
@@ -16,11 +23,11 @@
 .footer_description{
     font-family: 'Inter';
     font-style: normal;
-    max-width: 640px;
-    max-height: 96px;
+/*    max-width: 640px;
+    max-height: 96px;*/
     font-weight: 400;
-    margin-left: auto;
-    margin-right: auto;
+/*    margin-left: auto;
+    margin-right: auto;*/
     font-size: 16px;
     line-height: 24px;
     text-align: center;
