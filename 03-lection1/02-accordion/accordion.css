@@ -1,1 +1,52 @@
-/* Стилизация аккордеона */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.accordion{
+    padding: 75px 166px 116px 166px;
+    max-width: 730px;
+    max-height: 304px;
+}
+
+.accordion_item{
+    border: 1px solid;
+    border-color: darkgray;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.accordion_item:last-child{
+    margin-bottom: 0;
+}
+
+.accordion summary{
+    display: block;
+    padding: 24px 32px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+    color: #212429;
+    
+}
+
+.accordion_item[open] .accordion_summary{ 
+    padding-bottom: 16px;
+}
+
+.accordion__summary::-webkit-details-marker{
+    display: none;
+}
+
+.content{
+    padding-left: 30px;
+}
+
+.item_text{
+    color: #495057;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
