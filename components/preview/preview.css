@@ -2,95 +2,16 @@
     background: #F9FAFC;
     border-top: 1px solid #dde2e5;
     border-bottom: 1px solid #dde2e5;
+    padding: 67px 0 204px;
 }
-.f_floor{
+
+.preview_inner1{
     display: flex;
-    
+    gap: 30px;
 }
 
-.preview_tooltip_card{
-    padding-top: 68px;
-    padding-left: 10%;
-}
-
-.preview_tooltip{
-    background-color: gray;
-    width: 350px;
-    height: 367px;
-    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
-    border-radius: 12px;
-}
-
-.preview_cfe_card{
-    padding-top: 68px;
-    padding-left: 30px;
-}
-.preview_cfe{
-    width: 350px;
-    height: 367px;
-    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
-    border-radius: 12px;
-    background-color: gray;
-
-}
-
-.preview_calendar_card{
-    padding-top: 68px;
-    padding-left: 30px;
-    padding-right: 10%;
-}
-
-.preview_calendar{
-    width: 350px;
-    height: 367px;
-    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
-    border-radius: 12px;
-    background-color: gray;
-}
-
-
-.s_floor{
+.preview_inner2{
     display: flex;
-}
-
-.preview_md_card{
     padding-top: 30px;
-    padding-left: 10%;
-}
-
-
-.preview_md{
-    width: 350px;
-    height: 367px;
-    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
-    border-radius: 12px;
-    background-color: gray;
-}
-
-.preview_histogram_card{
-    padding-top: 30px;
-    padding-left: 30px;
-}
-
-
-.preview_histogram{
-    width: 350px;
-    height: 367px;
-    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
-    border-radius: 12px;
-    background-color: gray;
-}
-
-.preview_avatar_card{
-    padding-right: 10%;
-    padding-top: 30px;
-    padding-left: 30px;
-}
-
-.preview_avatar{
-    width: 350px;
-    height: 367px;
-    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
-    border-radius: 12px;
-    background-color: gray;
+    gap: 30px;
 }
