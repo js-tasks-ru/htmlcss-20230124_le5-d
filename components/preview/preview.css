@@ -1,6 +1,17 @@
 .preview{
-    height: 400px;
     background: #F9FAFC;
     border-top: 1px solid #dde2e5;
     border-bottom: 1px solid #dde2e5;
+    padding: 67px 0 204px;
+}
+
+.preview_inner1{
+    display: flex;
+    gap: 30px;
+}
+
+.preview_inner2{
+    display: flex;
+    padding-top: 30px;
+    gap: 30px;
 }
