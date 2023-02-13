@@ -4,13 +4,13 @@
     border-radius: 8px;
 }
 
-.skeleton_header{
+.skeleton__header{
     display: flex;
     align-items: center;
     margin-bottom: 24px;
 }
 
-.skeleton_circle{
+.skeleton__circle{
     flex-shrink: 0;
     width: 64px;
     height: 64px;
@@ -18,13 +18,13 @@
     background: #DDE2E5;
 }
 
-.skeleton_title{
+.skeleton__title{
     flex-shrink: 1;
     flex-basis: 100%;
     margin-left: 16px;
 }
 
-.skeleton_line{
+.skeleton__line{
     height: 20px;
     max-width: 100%;
     width: 100%;
@@ -32,14 +32,14 @@
     background-color: #DDE2E5;
 }
 
-.skeleton_line:last-child{
+.skeleton__line:last-child{
     margin-bottom: 0;
 }
 
-.skeleton_line_name{
+.skeleton__line__name{
     max-width: 20%;
 }
 
-.skeleton_line_date{
+.skeleton__line__date{
     max-width:  35%;
 }
