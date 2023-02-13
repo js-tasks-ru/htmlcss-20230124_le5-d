@@ -3,14 +3,11 @@
     padding: 71px 0 136px;
 }
 
-.footer_container{
-    margin: 0 auto;
-    max-width: 640px;
-    max-height: 176px;
+.footer__container{
     text-align: center;
 }
 
-.footer_title{
+.footer__title{
     font-family: 'Inter';
     font-style: normal;
    /* text-align: center;*/
@@ -20,7 +17,7 @@
     color: #212429;
 }
 
-.footer_description{
+.footer__description{
     font-family: 'Inter';
     font-style: normal;
 /*    max-width: 640px;
