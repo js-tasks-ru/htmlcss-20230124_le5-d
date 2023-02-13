@@ -11,18 +11,18 @@ body{
     max-height: 304px;
 }
 
-.accordion_item{
+.accordion__item{
     border: 1px solid;
     border-color: darkgray;
     border-radius: 8px;
     margin-bottom: 8px;
 }
 
-.accordion_item:last-child{
+.accordion__item:last-child{
     margin-bottom: 0;
 }
 
-.accordion summary{
+.accordion__summary{
     display: block;
     padding: 24px 32px;
     cursor: pointer;
@@ -32,7 +32,7 @@ body{
     
 }
 
-.accordion_item[open] .accordion_summary{ 
+.accordion__item[open] .accordion__summary{ 
     padding-bottom: 16px;
 }
 
@@ -44,7 +44,7 @@ body{
     padding-left: 30px;
 }
 
-.item_text{
+.item__text{
     color: #495057;
     font-style: normal;
     font-weight: 400;
