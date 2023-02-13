@@ -1,4 +1,4 @@
-.container_primary{
+.container__primary{
     width: auto;
     height: auto;
     display: flex;
@@ -7,7 +7,7 @@
 
 }
 
-.container_primary_default{
+.container__primary__default{
     width: auto;
     height: auto;
     display: flex;
@@ -114,7 +114,7 @@
     outline: none;
 }
 
-.primary_disabled{
+.primary__disabled{
     width: 189px;
     height: 48px;
     display: inline-block;
@@ -135,11 +135,11 @@
     color: #FFFFFF;
 }
 
-.primary_disabled:hover{
+.primary__disabled:hover{
     cursor: pointer;
 }
 
-.secondary_disabled{
+.secondary__disabled{
     margin-left: 33px;
     width: 189px;
     height: 48px;
@@ -161,12 +161,12 @@
     color: #FFFFFF;
 }
 
-.secondary_disabled:hover{
+.secondary__disabled:hover{
     cursor: pointer;
 }
 
 
-.alternate_disabled{
+.alternate__disabled{
     margin-left: 33px;
     width: 189px;
     height: 48px;
@@ -188,7 +188,7 @@
     color: #495057;
 }
 
-.alternate_disabled:hover{
+.alternate__disabled:hover{
     cursor: pointer;
 }
 
