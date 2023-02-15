@@ -16,7 +16,6 @@
 }
 
 .primary{
-    width: 189px;
     height: 48px;
     display: inline-block;
     padding: 10px 15px;
@@ -30,20 +29,13 @@
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 18.75px;
+    line-height: 19px;
     text-align: center;
     color: #FFFFFF;
 }
 
-.primary:hover{
-    opacity: .8;
-    cursor: pointer;
-    background: #2342C0;
-}
 
 .primary:focus {
-    opacity: .8; 
-    cursor: pointer;
     outline: none;
 }
 
