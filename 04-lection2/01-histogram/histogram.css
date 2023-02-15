@@ -1,141 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+.histogram {
+  padding: 16px 24px 24px;
 
-body{
-    font-family: 'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
+  color: var(--black);
+
+  background-color: var(--bg-primary);
+  border: 1px solid var(--grey-3);
+  border-radius: 8px;
 }
 
-
-.histogram_container{
-    max-width: 354px;
-    max-height: 185px;
-    background: #FFFFFF;
-    border: 1px solid #ACB5BD;
-    border-radius: 8px;
-    
+.histogram__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 3px;
 }
 
-.roof{
-    display: flex;
+.histogram__title {
+  align-self: flex-start;
+  margin: 0;
+  margin-bottom: 3px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  opacity: 0.8;
 }
 
-.header_title{
-    width: 200px;
-    height: 24px;
-    margin: auto;
-    padding-top: 16px;
-    padding-bottom: 6px;
-    padding-left: 24px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #212429;
-    opacity: 0.8;
-    margin-left: 0px;
+.histogram__link {
+  align-self: flex-end;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--blue-2);
+  text-decoration: none;
 }
 
-.header_link{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    padding-top: 19px;
-    padding-right: 24px;
-    text-align: right;
-    color: #4263EB;
+.histogram__total-count {
+  margin: 0;
+  margin-bottom: 39px;
 
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
 }
 
-.header_quantity{
-    display: block;
-    max-width: 62px;
-    max-height: 26px;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
-    color: #212429;
-    margin: 0px;
-    padding: 6px 268px 39px 24px;
-    margin-right: 0px;
+.histogram__bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 1px;
+  height: 50px;
+  padding: 0 2px;
 }
 
-.histogram_chart{
-    display: flex; 
-    align-items: flex-end;
-    height: 50px;
-    padding-left: 26px;
-    padding-bottom: 24px;
-    padding-right: 29px;
-}
+.histogram__bar {
+  flex: auto;
 
-
-.histogram_chart-column1{
-    width: 9px;
-    background-color: #4263EB;
-    height: 100%;
-}
-
-.histogram_chart-column2{
-    width: 9px;
-    background-color: #4263EB;
-    height: 15%;
-    margin-left: 1px;
-}
-
-.histogram_chart-column3{
-    width: 9px;
-    background: #4263EB;
-    height: 45%;
-    margin-left: 1px;
-}
-
-v\.histogram_chart-column4{
-    width: 9px;
-    background: #4263EB;
-    height: 75%;
-    margin-left: 1px;
-}
-
-.histogram_chart-column5{
-    width: 9px;
-    background: #4263EB;
-    height: 50%;
-    margin-left: 1px;    
-}
-
-.histogram_chart-column6{
-    width: 9px;
-    background: #4263EB;
-    height: 14%;
-    margin-left: 1px;    
-}
-
-.histogram_chart-column7{
-    width: 9px;
-    background: #4263EB;
-    height: 41%;
-    margin-left: 1px;
-}
-
-.histogram_chart-column8{
-    width: 9px;
-    background: #4263EB;
-    height: 89%;
-    margin-left: 1px;
-}
-
-.histogram_chart-column9{
-    width: 9px;
-    background: #4263EB;
-    height: 26%;
-    margin-left: 1px;
-}
-
-.histogram_chart-column10{
-    width: 9px;
-    background: #4263EB;
-    height: 65%;
-    margin-left: 1px;
+  background-color: var(--blue-2);
 }
