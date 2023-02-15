@@ -1,21 +1,14 @@
 /*делаю нормальный ПР */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
-
 body{
     font-family: 'Inter', sans-serif;
 }
 
-.accordion{
-    padding: 75px 166px 116px 166px;
-    max-width: 730px;
-    max-height: 304px;
-}
-
 .accordion__item{
     border: 1px solid;
-    border-color: darkgray;
+    border-color: #ACB5BD;
     border-radius: 8px;
     margin-bottom: 8px;
+    
 }
 
 .accordion__item:last-child{
@@ -40,11 +33,11 @@ body{
     display: none;
 }
 
-.content{
+.accordion__content{
     padding-left: 30px;
 }
 
-.item__text{
+.accordion__text{
     color: #495057;
     font-style: normal;
     font-weight: 400;
